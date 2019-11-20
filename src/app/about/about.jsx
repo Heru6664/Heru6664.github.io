@@ -28,7 +28,10 @@ export default class About extends Component {
                   However, i'm open-minded and do not follow the norms of
                   others. Hence, i can say i'm non-conformists. i'm more
                   neurotic . Hence, i'm more anxious and get stressed out
-                  easily. In other ways, i get worried very easily. 😸
+                  easily. In other ways, i get worried very easily.{" "}
+                  <span role="img" aria-label="cat">
+                    😸
+                  </span>
                 </p>
               </div>
             </Col>

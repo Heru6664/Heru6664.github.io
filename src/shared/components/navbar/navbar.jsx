@@ -18,7 +18,7 @@ export default class AppNavbar extends Component {
 
   render() {
     return (
-      <Navbar bg="transparent" variant="dark" expand="lg" fixed="top">
+      <Navbar variant="dark" expand="lg" fixed="top">
         <Container>
           <Navbar.Brand href="#home">Silver Winter</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
