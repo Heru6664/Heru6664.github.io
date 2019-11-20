@@ -1,9 +1,8 @@
 import PropTypes from "prop-types";
 import React from "react";
-import CheckButton from "./CheckButton";
 import Gallery from "react-grid-gallery";
 
-import { Container, Row } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 
 export default class Portofolio extends React.Component {
   constructor(props) {
@@ -21,9 +20,9 @@ export default class Portofolio extends React.Component {
 
   allImagesSelected(images) {
     var f = images.filter(function(img) {
-      return img.isSelected == true;
+      return img.isSelected === true;
     });
-    return f.length == images.length;
+    return f.length === images.length;
   }
 
   onSelectImage(index, image) {
@@ -50,7 +49,7 @@ export default class Portofolio extends React.Component {
   getSelectedImages() {
     var selected = [];
     for (var i = 0; i < this.state.images.length; i++)
-      if (this.state.images[i].isSelected == true) selected.push(i);
+      if (this.state.images[i].isSelected === true) selected.push(i);
     return selected;
   }
 
