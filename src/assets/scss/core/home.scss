@@ -1,10 +1,8 @@
 #home {
   height: 100vh;
-  // background: url(../images/bg.jpg);
-  // background-color: #f79f1f;
+  background: url(../../assets/images/container1.jpg);
   background-size: cover;
   background-position: center;
-  color: #ffffff;
 
   .gradient-right-orange {
     background-image: linear-gradient(
@@ -14,27 +12,31 @@
     );
   }
 
-  .logo {
-    width: 50%;
+  .container1 {
+    width: 100%;
   }
   .orange {
     background-color: #f79f1f;
   }
 
   .name {
-    // font-variant: 'bold';
+    text-align: right;
     font-size: 3.2em;
     margin-bottom: 0px;
     font-weight: 600;
+    color: #ffff;
   }
 
   .job {
+    text-align: right;
     font-size: 2em;
     font-weight: 300;
     margin-bottom: 1em;
+    color: #ffff;
   }
 
   .desc {
+    text-align: right;
     font-size: 1.4em;
     font-weight: 300;
   }
@@ -48,10 +50,10 @@
 
 #left-side {
   height: 100%;
-  width: 50%;
+  width: 40%;
 }
 
 #right-side {
   height: 100%;
-  width: 50%;
+  width: 60%;
 }

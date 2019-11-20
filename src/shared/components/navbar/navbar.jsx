@@ -27,9 +27,9 @@ export default class AppNavbar extends Component {
             className="justify-content-end"
           >
             <Nav>
-              {this.state.menu.map(i => {
+              {this.state.menu.map((i, index) => {
                 return (
-                  <Nav.Item>
+                  <Nav.Item key={index}>
                     <AnchorLink className="nav-link" href={`#${i.path}`}>
                       {i.title}
                     </AnchorLink>

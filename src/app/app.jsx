@@ -6,15 +6,7 @@ import MainPage from "./main-page/main-page";
 import Home from "./home/home";
 
 export default class App extends Component {
-  constructor() {
-    super();
-    this.state = {
-      isLoading: false
-    };
-  }
-
   render() {
-    const { isLoading } = this.state;
     return (
       <Layout>
         <Router basename={process.env.PUBLIC_URL}>
