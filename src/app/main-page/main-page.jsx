@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import Home from "../home/home";
-import About from "../about/about";
-import Portofolio from "../portofolio/portofolio";
+import Home from "../content/home/home";
+import About from "../content/about/about";
+import Portofolio from "../content/portofolio/portofolio";
 
 export default class MainPage extends Component {
   render() {

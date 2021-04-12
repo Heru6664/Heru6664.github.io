@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import cat from "../../assets/images/cat.png";
+import cat from "../../../assets/images/cat.png";
 
 export default class About extends Component {
   render() {
@@ -24,14 +24,8 @@ export default class About extends Component {
               <div>
                 <h3 className="job">Ailurophile</h3>
                 <p className="desc">
-                  Imma cat lover, i'm kinda emotional, sensitive and introvert.
-                  However, i'm open-minded and do not follow the norms of
-                  others. Hence, i can say i'm non-conformists. i'm more
-                  neurotic . Hence, i'm more anxious and get stressed out
-                  easily. In other ways, i get worried very easily.{" "}
-                  <span role="img" aria-label="cat">
-                    😸
-                  </span>
+                  I'm a cat lover, Introverted, Intuitive, Thinking, and Judging.{" "}
+                  A Thirst for Knowledge. Boldest of dreamers
                 </p>
               </div>
             </Col>
