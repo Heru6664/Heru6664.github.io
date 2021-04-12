@@ -3,6 +3,7 @@ import Home from "../content/home/home";
 import About from "../content/about/about";
 import Portofolio from "../content/portofolio/portofolio";
 import Contact from "../content/contact/contact";
+import Resume from "../content/resume/resume";
 
 export default class MainPage extends Component {
   render() {
@@ -12,6 +13,7 @@ export default class MainPage extends Component {
         <About />
         <Portofolio />
         <Contact />
+        <Resume />
       </div>
     );
   }
